@@ -1,0 +1,13 @@
+- variable declaration is done by the below keywords
+a) var b) val
+- specifying variable data type is optional, the below variable declarations are the same
+a) var name: String = "tawanda"
+   var name = "tawanda"
+b) val age: Int = 28
+   val age = 28
+
+- commenting is the same as in java when in kotlin
+- print() function prints everything in one line and println() creates a new statement on a new line after printing the first statement
+- variables declared by var can be changed/modified and variables declared by val can't be changed/modified
+- you can declare a variable without assigning it a value but then you have to specify the datatype
+- const keyword in used to make a declared variable status and it is defined outside a function
