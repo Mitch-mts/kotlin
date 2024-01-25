@@ -10,6 +10,7 @@ fun main(){
     println("hello world " + name + " " + surname + " at age $age")
     println("my city is $city in " + country)
     println("pi reference is " + pi)
+    println(surname[3])
 }
 
 fun getPiValue(): Double = PI
