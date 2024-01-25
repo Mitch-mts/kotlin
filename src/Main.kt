@@ -11,6 +11,9 @@ fun main(){
     println("my city is $city in " + country)
     println("pi reference is " + pi)
     println(surname[3])
+    println("surname length is " + surname.length)
+    println(surname.uppercase())
+    println(name.lowercase())
 }
 
 fun getPiValue(): Double = PI
