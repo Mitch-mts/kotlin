@@ -11,3 +11,15 @@ b) val age: Int = 28
 - variables declared by var can be changed/modified and variables declared by val can't be changed/modified
 - you can declare a variable without assigning it a value but then you have to specify the datatype
 - const keyword in used to make a declared variable status and it is defined outside a function
+- when expression in kotlin is similar to switch in java
+- arrays are defined by the function arrayOf() and values are separated by a comma
+- there is no traditional for loop in kotlin as in any other language
+- creating a class object in kotlin you say: val classObject = MyClass(), and then access functions using the dot function
+- in kotlin you can define a class and its constructor values like
+class MyClassConstructor(var brand: String,
+                         var model: String,
+                         var year: Int)
+
+- the open keyword used on the super classes makes the class a class which other classes can inherit properties and functions from
+- to inherit from a class specify the name on the subclass followed by a colon, :, and then the name of the superclass
+- inheritance is useful for code reusability
