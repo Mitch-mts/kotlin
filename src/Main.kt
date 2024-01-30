@@ -90,6 +90,29 @@ fun main(){
     val inheritance = SubClass()
     inheritance.myFunction()
 
+    val isAdult = true
+    val isFemale  = false
+    val isDriver = true
+
+    println("boolean conditions")
+    println(isAdult && isFemale && isDriver)
+
+    val myAge = 18
+    when(myAge) {
+        in 13..19 -> {
+            println("teenager")
+        }
+        !in 0..12 -> {
+            println("infant")
+        }
+        else -> {
+            println("adult")
+        }
+    }
+
+    val names = arrayOf("david", "james")
+    println("another way to print arrays " + names.contentToString())
+
 }
 
 fun january(day: String, date: Int) {
